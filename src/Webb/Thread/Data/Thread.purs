@@ -9,6 +9,12 @@ import Effect.Aff (Fiber)
 
 data Thread = Stopped | Starting | Running (Fiber Unit)
 
+instance Eq Thread where
+  eq (Stopped) (Stopped) = true
+  eq (Starting) (Starting) = true
+  eq (Running _) (Running _) = true
+  eq _x _y = false
+
 derive instance Generic Thread _
 instance Show Thread where 
   show (Running _) = "Running"
