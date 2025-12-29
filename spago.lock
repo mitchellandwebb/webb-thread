@@ -743,7 +743,9 @@
     "extra_packages": {
       "spec-discovery": "8.2.0",
       "webb-monad": "0.0.2",
-      "webb-mutex": "0.0.2",
+      "webb-mutex": {
+        "path": "../webb-mutex"
+      },
       "webb-random": "0.0.1",
       "webb-refer": "0.0.3",
       "webb-stateful": "0.0.2",
@@ -1904,9 +1906,8 @@
       ]
     },
     "webb-mutex": {
-      "type": "registry",
-      "version": "0.0.2",
-      "integrity": "sha256-ud/eTLKXMOgkqBHpr2vEWvnjtu3eHdSjH+rbgjJCFmI=",
+      "type": "local",
+      "path": "../webb-mutex",
       "dependencies": [
         "aff",
         "arrays",
