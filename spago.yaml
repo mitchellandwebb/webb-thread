@@ -7,7 +7,7 @@ package:
     - maybe: ">=6.0.0 <7.0.0"
     - prelude: ">=6.0.2 <7.0.0"
     - webb-monad: ">=0.0.2 <0.0.3"
-    - webb-mutex: ">=0.0.3 <0.0.4"
+    - webb-mutex: ">=0.0.7 <0.0.8"
     - webb-refer: ">=0.0.3 <0.0.4"
   test:
     main: Test.Main
@@ -18,7 +18,7 @@ package:
       - webb-test
 
   publish:
-    version: 0.0.1
+    version: 0.0.2
     license: BSD-3-Clause
     location:
       githubOwner: mitchellandwebb
@@ -34,4 +34,4 @@ workspace:
     webb-monad: 0.0.2
     webb-stateful: 0.0.2
     webb-random: 0.0.1
-    webb-mutex: 0.0.3
+    webb-mutex: 0.0.7

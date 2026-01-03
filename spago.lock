@@ -24,7 +24,7 @@
               "webb-monad": ">=0.0.2 <0.0.3"
             },
             {
-              "webb-mutex": ">=0.0.3 <0.0.4"
+              "webb-mutex": ">=0.0.7 <0.0.8"
             },
             {
               "webb-refer": ">=0.0.3 <0.0.4"
@@ -739,7 +739,7 @@
     "extra_packages": {
       "spec-discovery": "8.2.0",
       "webb-monad": "0.0.2",
-      "webb-mutex": "0.0.3",
+      "webb-mutex": "0.0.7",
       "webb-random": "0.0.1",
       "webb-refer": "0.0.3",
       "webb-stateful": "0.0.2",
@@ -1835,8 +1835,8 @@
     },
     "webb-mutex": {
       "type": "registry",
-      "version": "0.0.3",
-      "integrity": "sha256-aglfLA6MkFkV2qrpgk1R5MMq+gKglM3OdOJbcx5OTjg=",
+      "version": "0.0.7",
+      "integrity": "sha256-K1P6TlXSIUJmmKbEx+STtrUdnMHQASclrQom7qX8D1g=",
       "dependencies": [
         "aff",
         "arrays",
